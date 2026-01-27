@@ -1,0 +1,15 @@
+@use '../abstracts/mixins';
+
+.hero {
+  // position: relative;
+  &__img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 0;
+
+    @include mixins.respond-to('tablet') {
+      right: 0;
+    }
+  }
+}

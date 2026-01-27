@@ -1,0 +1,13 @@
+// Mapa de colores de Smart Budget
+
+$sb-colores: (
+  brand-primary: #00bfa5,
+  brand-accent: #ff9800,
+  brand-dark: #263238,
+  brand-medium: #546e7a,
+  brand-light: #f5f5f5,
+);
+
+// Fuente o tipografía
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+$sb-font: 'Montserrat', sans-serif;

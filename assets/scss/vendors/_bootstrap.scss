@@ -1,0 +1,19 @@
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import '../../../node_modules/bootstrap/scss/functions';
+
+// 2. Include any default variable overrides here
+@import '../abstracts/variables';
+
+$font-family-base: $sb-font;
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import '../../../node_modules/bootstrap/scss/variables';
+@import '../../../node_modules/bootstrap/scss/mixins';
+
+// 4. Incluir MI mapa de colores y fusionarlo con el de Bootstrap
+$theme-colors: map-merge($theme-colors, $sb-colores);
+
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css');

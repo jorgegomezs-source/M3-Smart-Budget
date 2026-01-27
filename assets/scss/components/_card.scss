@@ -1,0 +1,9 @@
+@use '../abstracts/variables';
+@use 'sass:map';
+
+.card {
+  i {
+    font-size: 2rem;
+    color: map.get(variables.$sb-colores, 'brand-primary');
+  }
+}

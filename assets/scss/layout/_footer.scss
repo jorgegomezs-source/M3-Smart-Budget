@@ -1,0 +1,24 @@
+@use '../abstracts/variables';
+@use 'sass:map';
+
+.footer {
+  padding: 1rem;
+  background-color: map.get(variables.$sb-colores, 'brand-medium');
+  &__image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .nav {
+      align-items: center;
+    }
+  }
+  .nav-link {
+    color: map.get(variables.$sb-colores, 'brand-light');
+  }
+}
