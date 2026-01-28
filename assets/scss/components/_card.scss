@@ -5,5 +5,10 @@
   i {
     font-size: 2rem;
     color: map.get(variables.$sb-colores, 'brand-primary');
+    background-color: aquamarine;
+    &:hover {
+      color: map.get(variables.$sb-colores, 'brand-accent');
+    }
   }
 }
+

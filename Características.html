@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Smart Budget</title>
+    <title>Características - Smart Budget</title>
 
     <!-- Mi CSS -->
     <link rel="stylesheet" href="./assets/css/main.css" />
@@ -37,10 +37,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto text-center">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Inicio</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="Características.html"
                 >Características</a
               >
@@ -57,91 +57,159 @@
     </nav>
 
     <!-- Sección Hero -->
-    <section class="bg-brand-dark text-brand-light pt-5 hero">
+    <section class="bg-brand-dark text-brand-light py-5">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <h1>Tu dinero,<br />inteligente</h1>
-            <p>
-              Visualiza y controla tus finanzas personales en un solo lugar.
-            </p>
-            <button
-              class="btn btn-brand-accent text-brand-light btn-block rounded-pill mb-4"
-              onclick="window.location.href = 'login.html'"
-            >
-              Empieza Gratis
-            </button>
-          </div>
-          <div class="col-md-6">
-            <img
-              src="./assets/img/dashboard-recortado.png"
-              class="hero__img p-3 rounded shadow-lg"
-              alt=""
-            />
-          </div>
+        <div class="text-center">
+          <h1 class="mb-3 display-4">Características de Smart Budget</h1>
+          <p class="lead">
+            Descubre todas las herramientas que tenemos para ayudarte a
+            gestionar mejor tus finanzas
+          </p>
         </div>
       </div>
     </section>
 
-    <!-- Sección Beneficios -->
-    <section class="my-5">
+    <!-- Sección Características -->
+    <section class="py-5">
       <div class="container">
-        <h2 class="text-center">Beneficios</h2>
+        <!-- Fila 1: Características principales -->
+        <div class="row mb-5">
+          <div class="col-md-6 col-lg-4 py-3">
+            <div
+              class="card d-flex flex-row align-items-center flex-md-column h-100"
+            >
+              <i class="bi bi-wallet2 text-center ml-3 ml-md-0"></i>
+              <div class="card-body">
+                <h5 class="card-title">Gestión de Gastos</h5>
+                <p class="card-text">
+                  Registra y categoriza todos tus gastos de forma rápida y
+                  sencilla. Visualiza dónde va tu dinero.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 py-3">
+            <div
+              class="card d-flex flex-row align-items-center flex-md-column h-100"
+            >
+              <i class="bi bi-graph-up text-center ml-3 ml-md-0"></i>
+              <div class="card-body">
+                <h5 class="card-title">Análisis Avanzado</h5>
+                <p class="card-text">
+                  Obtén reportes detallados y gráficos interactivos que te
+                  muestren tus patrones de gasto mensuales.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 py-3">
+            <div
+              class="card d-flex flex-row align-items-center flex-md-column h-100"
+            >
+              <i class="bi bi-target text-center ml-3 ml-md-0"></i>
+              <div class="card-body">
+                <h5 class="card-title">Establecer Metas</h5>
+                <p class="card-text">
+                  Define objetivos de ahorro y presupuestos personalizados para
+                  tus categorías de gastos favoritas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fila 2: Características adicionales -->
+        <div class="row mb-5">
+          <div class="col-md-6 col-lg-4 py-3">
+            <div
+              class="card d-flex flex-row align-items-center flex-md-column h-100"
+            >
+              <i class="bi bi-shield-check text-center ml-3 ml-md-0"></i>
+              <div class="card-body">
+                <h5 class="card-title">Seguridad Máxima</h5>
+                <p class="card-text">
+                  Tus datos están protegidos con encriptación de nivel bancario
+                  y los más altos estándares de privacidad.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 py-3">
+            <div
+              class="card d-flex flex-row align-items-center flex-md-column h-100"
+            >
+              <i class="bi bi-cloud-sync text-center ml-3 ml-md-0"></i>
+              <div class="card-body">
+                <h5 class="card-title">Sincronización Cloud</h5>
+                <p class="card-text">
+                  Accede a tu información desde cualquier dispositivo, siempre
+                  sincronizado y actualizado en tiempo real.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 py-3">
+            <div
+              class="card d-flex flex-row align-items-center flex-md-column h-100"
+            >
+              <i class="bi bi-bell text-center ml-3 ml-md-0"></i>
+              <div class="card-body">
+                <h5 class="card-title">Notificaciones Inteligentes</h5>
+                <p class="card-text">
+                  Recibe alertas cuando te aproximes a tu presupuesto límite o
+                  tengas movimientos inusuales.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fila 3: Características premium -->
         <div class="row">
-          <div class="col-md-6 col-lg-3 py-3">
+          <div class="col-md-6 col-lg-4 py-3">
             <div
               class="card d-flex flex-row align-items-center flex-md-column h-100"
             >
-              <i class="bi bi-piggy-bank text-center ml-3 ml-md-0"></i>
+              <i class="bi bi-download text-center ml-3 ml-md-0"></i>
               <div class="card-body">
-                <h5 class="card-title">Visión y control</h5>
+                <h5 class="card-title">Exportar Reportes</h5>
                 <p class="card-text">
-                  Visualiza y controla tus finanzas personales en un solo lugar.
+                  Descarga tus reportes en PDF o Excel para compartirlos o
+                  tenerlos como respaldo en tu computadora.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 py-3">
+
+          <div class="col-md-6 col-lg-4 py-3">
             <div
               class="card d-flex flex-row align-items-center flex-md-column h-100"
             >
-              <i class="bi bi-credit-card-2-back text-center ml-3 ml-md-0"></i>
+              <i class="bi bi-people text-center ml-3 ml-md-0"></i>
               <div class="card-body">
-                <h5 class="card-title">Controlar gastos</h5>
-
+                <h5 class="card-title">Presupuesto Familiar</h5>
                 <p class="card-text">
-                  Categoriza y monitorea todos tus gastos para identificar
-                  oportunidades de ahorro.
+                  Administra múltiples cuentas y presupuestos para toda tu
+                  familia en una sola plataforma.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 py-3">
+
+          <div class="col-md-6 col-lg-4 py-3">
             <div
               class="card d-flex flex-row align-items-center flex-md-column h-100"
             >
-              <i class="bi bi-bar-chart-fill text-center ml-3 ml-md-0"></i>
+              <i class="bi bi-chat-left-dots text-center ml-3 ml-md-0"></i>
               <div class="card-body">
-                <h5 class="card-title">Análisis detallado</h5>
-
+                <h5 class="card-title">Soporte 24/7</h5>
                 <p class="card-text">
-                  Obtén reportes y gráficos intuitivos para entender mejor tus
-                  patrones de gasto.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 py-3">
-            <div
-              class="card d-flex flex-row align-items-center flex-md-column h-100"
-            >
-              <i class="bi bi-coin text-center ml-3 ml-md-0"></i>
-              <div class="card-body">
-                <h5 class="card-title">Planificación inteligente</h5>
-
-                <p class="card-text">
-                  Establece metas de ahorro y presupuestos personalizados para
-                  lograr tus objetivos financieros.
+                  Nuestro equipo de soporte está siempre disponible para
+                  ayudarte con cualquier pregunta o problema.
                 </p>
               </div>
             </div>
